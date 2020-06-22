@@ -1,3 +1,14 @@
+#how can we calculate a more accurate fixed monthly payment than we did in Problem 2
+#without running into the problem of slow code?
+#We can make this program run faster using a technique introduced in lecture - bisection search!
+#The following variables contain values as described below:
+
+#balance - the outstanding balance on the credit card
+#annualInterestRate - annual interest rate as a decimal
+
+#Write a program that uses these bounds and bisection search such that we can pay off the debt within a year.
+#Produce the same return value as you did in Problem 2.
+
 def payment(balance, annualInterestRate):
 
     monthlypayment = 10
